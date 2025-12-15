@@ -25,7 +25,7 @@ public class Multihilo implements Runnable{
             out = new DataOutputStream(socket.getOutputStream());
 
             nombre = in.readUTF(); //Lee el nombre del cliente
-            System.out.println("Fase_4.Cliente conectado: " + nombre);
+            System.out.println("Cliente conectado: " + nombre);
 
             boolean salir = false;
 
