@@ -45,16 +45,8 @@ public class Cliente {
             System.out.println("Conexion del cliente terminada");
 
         } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (sc != null) sc.close();
-                if (in != null) in.close();
-                if (out != null) out.close();
-                if (socket != null) socket.close();
-            } catch (IOException e) {
                 e.printStackTrace();
-            }
         }
     }
 }
+
