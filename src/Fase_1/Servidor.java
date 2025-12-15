@@ -22,7 +22,7 @@ public class Servidor {
 
             while(true){
                 socket = server.accept();
-                System.out.println("Cliente detectado. El servidor se va a dormir.");
+                System.out.println("Fase_4.Cliente detectado. El servidor se va a dormir.");
 
                 try{
                     Thread.sleep(15000);//15 segundos de bloqueo
@@ -30,7 +30,7 @@ public class Servidor {
                     e.printStackTrace();
                 }
 
-                System.out.println("Cliente atendido con éxito después de la siesta.");
+                System.out.println("Fase_4.Cliente atendido con éxito después de la siesta.");
                 in = new DataInputStream(socket.getInputStream());
                 out = new DataOutputStream(socket.getOutputStream());
 

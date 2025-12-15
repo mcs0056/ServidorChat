@@ -1,3 +1,5 @@
+package Fase_4;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -24,7 +26,7 @@ public class ServidorSinHilos {
             out = new DataOutputStream(socket.getOutputStream());
             nombre = in.readUTF();//Lee el nombre del cliente
 
-            System.out.println("Cliente conectado: " + nombre);
+            System.out.println("Fase_4.Cliente conectado: " + nombre);
 
             boolean salir = false;
 

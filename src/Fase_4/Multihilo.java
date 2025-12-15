@@ -1,3 +1,5 @@
+package Fase_4;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -23,7 +25,7 @@ public class Multihilo implements Runnable{
             out = new DataOutputStream(socket.getOutputStream());
 
             nombre = in.readUTF(); //Lee el nombre del cliente
-            System.out.println("Cliente conectado: " + nombre);
+            System.out.println("Fase_4.Cliente conectado: " + nombre);
 
             boolean salir = false;
 
