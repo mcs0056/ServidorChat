@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.SocketException;
 
-public class Multihilo implements Runnable {
+public class Multihilos implements Runnable {
 
     private Socket socket;
 
-    public Multihilo(Socket socket){
+    public Multihilos(Socket socket){
         this.socket = socket;
     }
 
@@ -26,11 +26,10 @@ public class Multihilo implements Runnable {
             in = new DataInputStream(socket.getInputStream());
             out = new DataOutputStream(socket.getOutputStream());
 
-            // Mostrar la IP del cliente al conectarse
-            System.out.println("Cliente conectado desde: " + socket.getInetAddress());
-
             nombre = in.readUTF(); // Lee el nombre del cliente
-            System.out.println("Cliente conectado: " + nombre);
+
+            // Mostrar la IP del cliente al conectarse
+            System.out.println("Cliente conectado: " + nombre + " desde " + socket.getInetAddress());
 
             boolean salir = false;
 

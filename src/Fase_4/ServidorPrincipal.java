@@ -23,7 +23,7 @@ public class ServidorPrincipal {
 
             while(true){
                 socket = server.accept();
-                Multihilo multi = new Multihilo(socket);
+                Multihilos multi = new Multihilos(socket);
                 new Thread(multi).start();
             }
         }catch(IOException e){
