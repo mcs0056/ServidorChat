@@ -23,7 +23,7 @@ public class Multihilo implements Runnable{
             out = new DataOutputStream(socket.getOutputStream());
 
             nombre = in.readUTF(); //Lee el nombre del cliente
-            System.out.println("Cliente conectado: " + nombre + " desde " + socket.getInetAddress());
+            System.out.println("Cliente conectado: " + nombre);
 
             boolean salir = false;
 
