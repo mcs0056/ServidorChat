@@ -73,7 +73,7 @@ Se implementa un bucle de comunicación que finaliza cuando el cliente envía el
 
 Fase 3 – Servidor Multihilo
 
-Cada cliente es gestionado por un hilo independiente mediante la clase GestorCliente.
+Cada cliente es gestionado por un hilo independiente mediante la clase Multihilo.
 
 Fase 4 – Mejoras Profesionales
 
