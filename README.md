@@ -1,12 +1,12 @@
-#Servidor de Chat Concurrente en Java
-##Descripción
+# Servidor de Chat Concurrente en Java
+## Descripción
 
 Este proyecto implementa un servidor de chat concurrente en Java utilizando Sockets, Threads e IO Streams.
 El objetivo es comprender los problemas de los servidores bloqueantes y aplicar programación multihilo para permitir la comunicación simultánea con múltiples clientes.
 
 Práctica realizada para el módulo PSP (Procesos y Servicios).
 
-##Objetivos
+## Objetivos
 
 Comprender el funcionamiento básico de los sockets en Java.
 
@@ -18,7 +18,7 @@ Desarrollar un servidor multihilo mediante Runnable.
 
 Gestionar correctamente errores y desconexiones inesperadas.
 
-##Tecnologías
+## Tecnologías
 
 Java
 
@@ -30,7 +30,7 @@ DataInputStream / DataOutputStream
 
 IntelliJ IDEA
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 src/
 ├── Fase_1/
 │ ├── Cliente1.java
@@ -48,7 +48,7 @@ src/
 ├── Multihilos.java
 └── ServidorPrincipal.java
 
-🚀 Funcionalidades
+## Funcionalidades
 
 Comunicación continua cliente-servidor
 
@@ -62,7 +62,7 @@ Manejo de desconexiones inesperadas
 
 Cierre correcto de recursos
 
-🧪 Fases de Desarrollo
+## Fases de Desarrollo
 Fase 1 – Análisis del Bloqueo
 
 Se demuestra cómo un servidor sin hilos queda bloqueado al atender a un cliente, impidiendo nuevas conexiones.
