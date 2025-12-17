@@ -52,6 +52,7 @@ public class Servidor {
             System.out.println("FIN");
 
         } catch (IOException e) {
+            //Control de errores
             e.printStackTrace();
         }
     }
