@@ -33,20 +33,21 @@ IntelliJ IDEA
 ## Estructura del Proyecto
 src/
 ├── Fase_1/
-│ ├── Cliente1.java
-│ ├── Cliente2.java
-│ └── Servidor.java
+│   ├── Cliente1.java
+│   ├── Cliente2.java
+│   └── Servidor.java
 ├── Fase_2/
-│ ├── Cliente.java
-│ └── Servidor.java
+│   ├── Cliente.java
+│   └── Servidor.java
 ├── Fase_3/
-│ ├── Cliente.java
-│ ├── Multihilo.java
-│ └── ServidorPrincipal.java
+│   ├── Cliente.java
+│   ├── Multihilo.java
+│   └── ServidorPrincipal.java
 └── Fase_4/
-├── Cliente.java
-├── Multihilos.java
-└── ServidorPrincipal.java
+    ├── Cliente.java
+    ├── Multihilos.java
+    └── ServidorPrincipal.java
+
 
 ## Funcionalidades
 
